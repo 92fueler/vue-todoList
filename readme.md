@@ -16,4 +16,4 @@
 ##### to reset the list empty --> this.list = []
 
 #### 5. hide the footer 
-##### to auto hide the footer when there is no item in the list --> v-show 
+##### to auto hide the footer when there is no item in the list --> v-show="list.length!=0"
